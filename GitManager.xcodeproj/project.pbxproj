@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13F54C6CBEB4CF40B7E87C1A /* libPods-GitManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B584ED574DAD9ABC0CAE36 /* libPods-GitManager.a */; };
+		793F133C1EC2AE3E00BCA036 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793F133B1EC2AE3E00BCA036 /* DemoViewController.m */; };
 		79AD30841EC1D78C0022C31F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD30681EC1D78C0022C31F /* AppDelegate.m */; };
 		79AD30851EC1D78C0022C31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AD30691EC1D78C0022C31F /* Assets.xcassets */; };
 		79AD30861EC1D78C0022C31F /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD306E1EC1D78C0022C31F /* NSString+Extend.m */; };
@@ -23,6 +24,8 @@
 		03B584ED574DAD9ABC0CAE36 /* libPods-GitManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABFAA2D076E8C15D3D15617 /* Pods-GitManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitManager/Pods-GitManager.release.xcconfig"; sourceTree = "<group>"; };
 		7905CCD21E77DACB0031B8FD /* GitManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		793F133A1EC2AE3E00BCA036 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		793F133B1EC2AE3E00BCA036 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		79AD30671EC1D78C0022C31F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79AD30681EC1D78C0022C31F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79AD30691EC1D78C0022C31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 			children = (
 				79AD30791EC1D78C0022C31F /* TestViewController.h */,
 				79AD307A1EC1D78C0022C31F /* TestViewController.m */,
+				793F133A1EC2AE3E00BCA036 /* DemoViewController.h */,
+				793F133B1EC2AE3E00BCA036 /* DemoViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 				79AD30841EC1D78C0022C31F /* AppDelegate.m in Sources */,
 				79AD308A1EC1D78C0022C31F /* FXBlurView.m in Sources */,
 				79AD308D1EC1D78C0022C31F /* ViewController.m in Sources */,
+				793F133C1EC2AE3E00BCA036 /* DemoViewController.m in Sources */,
 				79AD308C1EC1D78C0022C31F /* main.m in Sources */,
 				79AD30861EC1D78C0022C31F /* NSString+Extend.m in Sources */,
 			);
